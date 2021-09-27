@@ -1,5 +1,6 @@
 body {
   font-family: 'Courier New', Courier, monospace;
+  text-align: center;
 }
 
 img {
@@ -24,3 +25,20 @@ img {
   justify-content: center;
   background: #eee;
 }
+
+
+.container {
+  background-color: whitesmoke;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  width: 80%;
+  margin: 30px auto;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 200px;
+}
+
